@@ -24,8 +24,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
-    [self.navigationItem.leftBarButtonItem setImage:[UIImage imageNamed:@"backImage"]];
-    [self.navigationItem.leftBarButtonItem setTitle:@"123"];
 }
 
 -(void)viewWillAppear:(BOOL)animated {
